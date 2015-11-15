@@ -1,0 +1,22 @@
+{
+  "extends": "eslint:recommended",
+  "plugins": ["angular"],
+  "env": {
+    "es6": true,
+    "browser": true,
+    "jasmine": true
+  },
+  "ecmaFeatures": {
+    "modules": true
+  },
+  "globals": {
+    "angular": true,
+    "module": true,
+    "inject": true
+  },
+  "rules": {
+    "angular/di": [0, "function"],
+    "angular/module-getter": 0,
+    "no-irregular-whitespace": 0
+  }
+}
